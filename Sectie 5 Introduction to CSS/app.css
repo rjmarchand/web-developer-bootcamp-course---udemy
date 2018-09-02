@@ -13,7 +13,6 @@ h4 {
 */
 
 
-
 /* 
 HEXADECIMAL 
 
@@ -27,7 +26,6 @@ h4 {
 	color:#6279ad;
 }
 */
-
 
 
 /* 
@@ -45,10 +43,9 @@ h4 {
 */
 
 
-
 /* 
 RGBA (alpha, transparency channel) 
-*/
+
 
 h1 {
 	color: rgba(11,99,150,1);
@@ -58,4 +55,42 @@ li {
 }
 h4 {
 	color: rgba(11,99,150,.2);
+}
+*/
+
+
+/*
+Border bestaat uit:
+	width
+	color
+	style 
+*/
+
+
+/*	
+Je kunt borders apart stylen:
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+*/
+
+
+/*
+Of je kunt een shortcut style gebruiken:
+	border: color width style 
+*/
+
+
+h1 {
+	color: rgba(0,200,100,0.8);
+	border: rgb(255,100,80) 2px solid;
+}
+h4 {
+	background: rgb(255,100,80);
+}
+body {
+	background: pink;
+/*	background:url(https://media.istockphoto.com/photos/olive-wood-grain-pattern-background-picture-id481394584?k=6&m=481394584&s=612x612&w=0&h=B6uuBd6mhsgVQr98qZgkYzTyWH_Tk28njtkB-Wqb1QA=);
+	background-repeat: no-repeat;
+	background-size: cover*/;
 }
