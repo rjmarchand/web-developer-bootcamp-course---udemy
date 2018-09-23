@@ -14,7 +14,6 @@ alert("Yay, we finally made it!");
 
 
 
-
 //BONUS: A user can enter any string as long as it contains "yes" in it
 
 // var	answer = prompt("Are we there yet?");
