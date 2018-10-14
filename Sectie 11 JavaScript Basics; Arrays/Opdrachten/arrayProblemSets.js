@@ -22,3 +22,26 @@ function isUniform(arr){
 }
 
 console.log(isUniform([1,1,1]));
+
+
+// write a function sumArray() that accepts an array of numbers and returns the sum of all numbers in the array
+
+function sumArray(arr){
+    var total = 0;
+    arr.forEach(function(element){
+        total += element;
+    });
+    return total;
+}
+
+// write a function max() that accepts an array of numbers and returns the maximum number in the array
+
+function max(arr){
+    var max = arr[0];
+    for(var i = 1; i < arr.length; i++){
+        if(arr[i] > max){
+            max = arr[i];
+        }
+    }
+    return max;
+}
