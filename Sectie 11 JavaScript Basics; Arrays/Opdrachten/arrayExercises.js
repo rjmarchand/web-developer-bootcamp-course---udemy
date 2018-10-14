@@ -9,7 +9,7 @@ console.log(numbers[numbers.length])
 var friendGroups = [
 	["Harry", "Ron", "Hermione"],
 	["Malfoy", "Crabbe", "Goyle"],
-	["Mooney", "Wormtail", "Prongs"]
+	["Mooney", "Wormtail", "Pr"]
 ];
 
 // What is the result of this line?
