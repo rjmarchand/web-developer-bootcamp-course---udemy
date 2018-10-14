@@ -34,6 +34,7 @@ function sumArray(arr){
     return total;
 }
 
+
 // write a function max() that accepts an array of numbers and returns the maximum number in the array
 
 function max(arr){
@@ -45,6 +46,3 @@ function max(arr){
     }
     return max;
 }
-
-
-// test test
