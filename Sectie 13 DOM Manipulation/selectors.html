@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selectors</title>
+</head>
+<body>
+
+	<h1>Hello</h1>
+	<h1>Goodbye</h1>
+
+	<ul>
+		<li id="highlight">List Item 1</li>
+		<li class="bolded">List Item 2</li>
+		<li class="bolded">List item 3</li>
+	</ul>
+
+</body>
+</html>
+
+
+<!-- SELECTORS IN JS CONSOLE -->
+<!-- -------------------------------------------------- -->
+
+<!-- getElementById -->
+<!-- var tag = document.getElementById("highlight"); -->
+<!-- <li id="highlight">List Item 1</li> -->
+<!-- console.dir(tag) is an object representation (JS) -->
+
+
+<!-- getElementsByClassName -->
+<!-- var tags = document.getElementsByClassName("bolded"); -->
+<!-- <li class="bolded">List Item 2</li>
+	 <li class="bolded">List item 3</li> -->
+<!-- console.dir(tags) are again object representations (JS) -->
+
+
+<!-- getElementsByTagName -->
+<!-- var tags = document.getElementsByTagName("li"); -->
+<!-- <li id="highlight">List Item 1</li>
+	 <li class="bolded">List Item 2</li>
+	 <li class="bolded">List item 3</li> -->
+<!-- console.dir(tags) are again actually JS objects -->
+
+
+<!-- querySelector (CSS style selector, CSS syntax!! 
+	 Only returns the FIRST element that matches the given CSS-style selector) -->
+<!-- var tag = document.querySelector(".bolded"); -->
+<!-- <li class="bolded">List Item 2</li> --> 
+
+
+<!-- querySelectorAll (returns a list of ALL elements that match the given CSS-style selector) -->
+<!-- var lis = document.querySelectorAll(".bolded"); -->
+<!-- <li class="bolded">List Item 2</li>
+	 <li class="bolded">List item 3</li>  -->
